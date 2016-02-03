@@ -1,0 +1,39 @@
+{
+  "name": "posthtml-shorten",
+  "version": "0.1.0",
+  "description": "A PostHTML plugin to shorten URLs in HTML elements",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul test _mocha -- --recursive",
+    "coveralls": "istanbul cover _mocha --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rebelmail/posthtml-shorten.git"
+  },
+  "keywords": [
+    "posthtml",
+    "shorten",
+    "url"
+  ],
+  "author": "Rebelmail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebelmail/posthtml-shorten/issues"
+  },
+  "homepage": "https://github.com/Rebelmail/posthtml-shorten#readme",
+  "dependencies": {
+    "bluebird": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "posthtml": "^0.8.1",
+    "sinon": "^1.17.3"
+  }
+}
