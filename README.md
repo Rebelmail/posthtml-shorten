@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/Rebelmail/posthtml-shorten.svg?branch=master)](https://travis-ci.org/Rebelmail/posthtml-shorten)
 [![Coverage Status](https://coveralls.io/repos/github/Rebelmail/posthtml-shorten/badge.svg?branch=master)](https://coveralls.io/github/Rebelmail/posthtml-shorten?branch=master)
+[![npm version](https://badge.fury.io/js/posthtml-shorten.svg)](https://badge.fury.io/js/posthtml-shorten)
+[![Dependency Status](https://david-dm.org/Rebelmail/posthtml-shorten.svg)](https://david-dm.org/Rebelmail/posthtml-shorten)
+[![devDependency Status](https://david-dm.org/Rebelmail/posthtml-shorten/dev-status.svg)](https://david-dm.org/Rebelmail/posthtml-shorten?type=dev)
 
 A [PostHTML][1] plugin to shorten URLs in HTML elements.
 
