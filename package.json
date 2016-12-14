@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Rebelmail/posthtml-shorten#readme",
   "dependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.4.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
