@@ -15,13 +15,13 @@ var posthtml = require('posthtml');
 var shorten = require('posthtml-shorten');
 
 var shortener = {
-  shorten: function(url, callback) {
-    callback(null, url.replace('goog', 'gog'));
+  process: function(url) {
+	  return Promise.resolve(url.replace('goog', 'gog'))
   }
 };
 
 var options = {
-  shortener: shortener, // Must contain a `shorten` function
+  shortener: shortener, // Must contain a `process` function
   tag: ['a', 'img', 'body'] // Allowed tags for URL shortening
   attribute: ['href', 'src'], // Attributes to replace on the elements
 };
