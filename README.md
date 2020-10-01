@@ -15,9 +15,11 @@ var posthtml = require('posthtml');
 var shorten = require('posthtml-shorten');
 
 var shortener = {
-  shorten: function(url, callback) {
-    callback(null, url.replace('goog', 'gog'));
-  }
+ process: function (url) {
+    return new Promise((resolve, reject) => {
+      resolve(url.replace("goog", "gog"));
+    });
+  },
 };
 
 var options = {
